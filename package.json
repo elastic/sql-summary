@@ -1,6 +1,6 @@
 {
   "name": "sql-summary",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Summarize any SQL query",
   "main": "index.js",
   "dependencies": {},
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/watson/sql-summary/issues"
   },
-  "homepage": "https://github.com/watson/sql-summary"
+  "homepage": "https://github.com/watson/sql-summary",
+  "coordinates": [
+    55.6877023,
+    12.5956371
+  ]
 }
