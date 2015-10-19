@@ -21,7 +21,7 @@ The following summary string is produced:
 SELECT FROM table_name
 ```
 
-[![Build status](https://travis-ci.org/watson/sql-summary.svg?branch=master)](https://travis-ci.org/watson/sql-summary)
+[![Build status](https://travis-ci.org/opbeat/sql-summary.svg?branch=master)](https://travis-ci.org/opbeat/sql-summary)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Installation
