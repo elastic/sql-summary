@@ -12,6 +12,7 @@ var tests = [
   ['SELECT DISTINCT column1, column2 FROM table_name', 'SELECT FROM table_name'],
   ['SELECT SUM(column_name) FROM table_name WHERE 1=1 GROUP BY column_name', 'SELECT FROM table_name'],
   ['SELECT COUNT(column_name) FROM table_name WHERE 1=1', 'SELECT FROM table_name'],
+  ['SELECT id, \'some name\' + \'" from Denmark\' FROM "mytable" WHERE id = 2323', 'SELECT FROM mytable'],
   ['CREATE TABLE table_name(column1 datatype, column2 datatype, column3 datatype, columnN datatype, PRIMARY KEY( one or more columns ))', 'CREATE TABLE table_name'],
   ['DROP TABLE table_name', 'DROP TABLE table_name'],
   ['CREATE INDEX index_name ON table_name ( column1, column2 )', 'CREATE INDEX index_name'],
