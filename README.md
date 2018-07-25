@@ -21,6 +21,7 @@ The following summary string is produced:
 SELECT FROM table_name
 ```
 
+[![npm](https://img.shields.io/npm/v/sql-summary.svg)](https://www.npmjs.com/package/sql-summary)
 [![Build status](https://travis-ci.org/elastic/sql-summary.svg?branch=master)](https://travis-ci.org/elastic/sql-summary)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -51,4 +52,4 @@ db.query(query, function (err, result) {
 
 ## License
 
-MIT
+[MIT](https://github.com/elastic/sql-summary/blob/master/LICENSE)
