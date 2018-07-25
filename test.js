@@ -4,6 +4,9 @@ var assert = require('assert')
 var sqlQueryType = require('./')
 
 var tests = [
+  [null, ''],
+  [undefined, ''],
+  ['', ''],
   ['SELECT * FROM table_name', 'SELECT FROM table_name'],
   ['select * from table_name', 'SELECT FROM table_name'],
   ['  \n  SELECT  \n  * \n  FROM     \r\n     table_name  \n  \n', 'SELECT FROM table_name'],

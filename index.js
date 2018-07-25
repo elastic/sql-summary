@@ -4,6 +4,7 @@ var whitespace = /[\s;]+/g
 var borderChars = /([;()])/g
 
 module.exports = function (sql) {
+  if (!sql) return ''
   var tokens = tokenize(sql)
   return stipTokens(tokens).join(' ')
 }
