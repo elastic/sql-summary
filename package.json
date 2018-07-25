@@ -1,6 +1,6 @@
 {
   "name": "sql-summary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Summarize any SQL query",
   "main": "index.js",
   "dependencies": {},
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/elastic/sql-summary",
   "coordinates": [
-    55.6877023,
-    12.5956371
+    55.778263,
+    12.592376
   ]
 }
