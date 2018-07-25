@@ -1,7 +1,7 @@
 'use strict'
 
 var whitespace = /[\s;]+/g
-var borderChars = /([;\(\)])/g
+var borderChars = /([;()])/g
 
 module.exports = function (sql) {
   var tokens = tokenize(sql)
