@@ -28,6 +28,9 @@
     "url": "https://github.com/elastic/sql-summary/issues"
   },
   "homepage": "https://github.com/elastic/sql-summary",
+  "engines": {
+    "node": ">=0.10"
+  },
   "coordinates": [
     55.778263,
     12.592376

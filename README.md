@@ -22,8 +22,7 @@ SELECT FROM table_name
 ```
 
 [![npm](https://img.shields.io/npm/v/sql-summary.svg)](https://www.npmjs.com/package/sql-summary)
-[![Build status](https://travis-ci.org/elastic/sql-summary.svg?branch=master)](https://travis-ci.org/elastic/sql-summary)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Test status](https://github.com/elastic/sql-summary/workflows/Test/badge.svg)](https://github.com/elastic/sql-summary/actions)
 
 ## Installation
 
